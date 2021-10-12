@@ -2,21 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Title</title>
+    <style>
+        body
+        {
+            background-color: #292b57;
+            color: aliceblue;
+            text-align: center;
+        }
+        div
+        {
+            border-radius: 20px;
+            color: beige;
+            background-color: #363357;
+            position: relative;
+        }
+    </style>
 </head>
 <body>
-<!-- essais de formulaires d'envoit d'email / non fonctionnel pour le moment -->
-<form action="http://formsubmit.co/alexis.laroche.02240@gmail.com" method="post">
-
-    <label for="sender_name">Name :</label>
-    <input type="text" name="name" id="sender_name" required>
-
-    <label for="sender_email">E-mail :</label>
-    <input type="email" name="email" id="sender_email" placeholder="E-mail Adress" required>
-
-    <input type="text" name="textEmail" id="sender_textEmail" placeholder="Your comments...">
-
-    <input type="submit" value="Send">
-</form>
+<h1>Contact me by mail</h1>
+    <form action="https://formsubmit.co/alexis.laroche.02240@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="http://www.google.com/">
+        <div>
+        <label for="sender_email">Your E-mail adress</label>
+        <input type="email" name="email" placeholder="Email Address" required id="sender_email">
+        </div>
+        <div>
+        <label for="sender_message">Your message:</label>
+        <textarea name="name" placeholder="Write you message here" required id="sender_message"
+        rows="15" cols="60"></textarea>
+        </div>
+        <div>
+        <button type="submit">Send</button>
+        </div>
+    </form>
 </body>
 </html>
