@@ -1,0 +1,66 @@
+body
+{
+    background-color: #F3EFE0;
+    color: #CBA135;
+    text-align: center;
+}
+img
+{
+    border-radius: 20px;
+}
+div
+{
+    border-radius: 20px;
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+nav
+{
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+}
+.ing
+{
+    width: 40%;
+    left: 5%;
+}
+.use
+{
+    width: 40%;
+    left: 5%;
+}
+.step
+{
+    width: 40%;
+    float: right;
+    top: -350px;
+    right: 5%;
+}
+footer
+{
+    width: 100%;
+    left: 70%;
+    text-align: center;
+}
+a
+{
+    color: #7FEFBD;
+}
+table
+{
+    margin: auto;
+    border: 3px solid;
+    border-radius: 4px;
+}
+th
+{
+    border: 1px dotted;
+    border-radius: 4px;
+}
+td
+{
+    border: 1px dotted;
+    border-radius: 4px;
+}
