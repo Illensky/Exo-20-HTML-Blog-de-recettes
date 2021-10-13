@@ -69,3 +69,7 @@ h1
     background-color: black;
     border-radius: 20px;
 }
+textarea
+{
+    border-radius: 20px;
+}
